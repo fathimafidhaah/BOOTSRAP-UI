@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+}
+.main{
+    max-width: 100vw;
+    height: 100vh;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    height: 95%;
+    width: 65%;
+    background-color: rgb(193, 199, 204);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.card{
+    width: 90%;
+    height: 93%;
+    border-radius: 0;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.first img{
+    width: 35px;
+    margin-left: 28px;
+    margin-top: 50px;
+}
+.first b{
+    position: relative;
+    top: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-fluid{
+    position: relative;
+    left: 300px;
+    bottom: 45px;
+    font-size: 10px;
+}
+.first button{
+    width: 140px;
+    height: 40px;
+    margin-left: 400px;
+    border-radius: 30px;
+    display: flex;
+    border: 1px solid black;
+}
+.round{
+    width: 38px;
+    height: 36px;
+    background-color: rgb(227, 200, 227);
+    border-radius: 50%;
+    position: relative;
+    right: 4px;
+}
+button img{
+    height: 50px;
+    position: relative;
+    bottom: 50px;
+    right: 25px;
+}
+.get{
+    font-size: 11px;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.second{
+    width: 100%;
+    height: 52%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+#girl{
+    width: 110px;
+    margin-bottom: 50px;
+}
+#headphone{
+    width: 70px;
+    margin-top: px;
+}
+.graph{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -80px;
+    top: 7px;
+}
+.second h1{
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h1{
+    position: relative;
+    bottom: 5px;
+}
+#h2{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+#h3{
+    position: relative;
+    bottom: 70px;
+}
+.third{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.box{
+    height: 90%;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    height: 100%;
+    width: 63%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.top button{
+    width: 70px;
+    height: 25px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 8px;
+    background-color: rgb(237, 195, 252);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.middle{
+    width: 93%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+.bottom{
+    width: 93%;
+    height: 30%;
+     border-top: 1px solid rgb(164, 164, 164);
+     display: flex;
+}
+.box1 img{
+    width: 50px;
+    height: 45px;
+}
+#toppp{
+    position: relative;
+    top: 10px;
+}
+#para{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+#sub{
+    position: relative;
+    bottom: 18px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: grey;
+}
+.midtext{
+    font-size: 10px;
+    position: relative;
+    left: 80px;
+    margin-top: 10px;
+}
+#pause{
+    position: relative;
+    left: 180px;
+}
+#play{
+    position: relative;
+    left: 180px;
+    top: 10px;
+}
+.box2{
+    height: 100%;
+    width: 37%;
+    background-color: rgb(247, 228, 220);
+}
+.box2 p{
+    font-size: 11px;
+    color: rgb(134, 84, 84);
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.box2 img{
+    width: 100px;
+    height: 85px;position: relative;
+    left: 170px;
+    top: 20px;
+}
+.box2 svg{
+    position: relative;
+    bottom: 40px;
+}
+#day{
+    width: 20px;
+    height: 18px;
+    position: relative;
+    left: -80px;
+    top: 30px;
+}
+.box2 b{
+    position: relative;
+    right: 75px;
+    top: 30px;
+    font-size: 10px;
+}
